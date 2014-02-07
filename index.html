@@ -51,9 +51,21 @@ $ git checkout gh-pages
     <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-  <h3>
+  <div id="octocard"></div>
+  <script>
+    OCTOCARD = {
+      name: 'jbonnet',
+      element: 'octocard',
+      modules: 'base,details,stats,repos,orgs,eventsStatis',
+      reposNum: 4,
+      orgsNum: 0,
+      // `http://octocard.info/api` as default.
+      // If your use your own octocard-server, change it.
+      // api: 'http://your-octocard-server.com/api',
+      noFooter: false
+    };
+  </script>
     <script data-name="jbonnet" src="http://nodejs.in/octocard/bin/octocard.js"></script>
-  </h3>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
